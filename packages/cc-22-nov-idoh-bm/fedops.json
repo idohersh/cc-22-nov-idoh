@@ -1,0 +1,21 @@
+[
+  {
+    "appName": "cc-22-nov-idoh-bm.pages.index",
+    "notifications": {
+      "slack_channels": [
+        "cc-22-nov-idoh-bm-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "cc-22-nov-idoh-bm",
+      "business-manager"
+    ],
+    "petri_annotations": {
+      "scopes": [
+        "business-manager",
+        "bm-apps-a5001149-da51-4a31-b5d5-c5a33fa10aae"
+      ]
+    },
+    "ignore_first_request_roundtrip": true
+  }
+]

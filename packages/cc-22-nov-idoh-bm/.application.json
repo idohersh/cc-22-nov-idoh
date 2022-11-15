@@ -1,0 +1,18 @@
+{
+  "$schema": "target/schemas/.application.schema.json",
+  "moduleId": "CC_22_NOV_IDOH_BM",
+  "appDefinitionId": "a5001149-da51-4a31-b5d5-c5a33fa10aae",
+  "isCoreService": true,
+  "routeNamespace": "cc-22-nov-idoh-bm",
+  "translations": {
+    "enabled": true
+  },
+  "sentry": {
+    "DSN": "https://975b7d1537bb4cf6b0330302677aa75b@sentry.wixpress.com/4369",
+    "id": "975b7d1537bb4cf6b0330302677aa75b",
+    "projectName": "cc-22-nov-idoh-bm",
+    "teamName": "crash-nov-2022-idoh",
+    "errorMonitor": true
+  },
+  "enabledByExperiments": ["specs.infra.yoshi-bm.ChangeMe"]
+}
