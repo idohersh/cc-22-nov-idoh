@@ -14,5 +14,7 @@
     "teamName": "crash-nov-2022-idoh",
     "errorMonitor": true
   },
-  "enabledByExperiments": ["specs.infra.yoshi-bm.ChangeMe"]
+  "enabledByExperiments": [
+    "specs.infra.yoshi-bm.ChangeMe"
+  ]
 }

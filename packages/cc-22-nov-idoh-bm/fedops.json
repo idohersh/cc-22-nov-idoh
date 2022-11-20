@@ -17,5 +17,81 @@
       ]
     },
     "ignore_first_request_roundtrip": true
+  },
+  {
+    "appName": "cc-22-nov-idoh-bm-pages-index",
+    "notifications": {
+      "slack_channels": [
+        "cc-22-nov-idoh-bm-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "cc-22-nov-idoh-bm",
+      "business-manager"
+    ],
+    "ignore_first_request_roundtrip": true,
+    "petri_annotations": {
+      "scopes": [
+        "business-manager",
+        "bm-apps-a5001149-da51-4a31-b5d5-c5a33fa10aae"
+      ]
+    }
+  },
+  {
+    "appName": "cc-22-nov-idoh-bm-pages-product-list",
+    "notifications": {
+      "slack_channels": [
+        "cc-22-nov-idoh-bm-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "cc-22-nov-idoh-bm",
+      "business-manager"
+    ],
+    "ignore_first_request_roundtrip": true,
+    "petri_annotations": {
+      "scopes": [
+        "business-manager",
+        "bm-apps-a5001149-da51-4a31-b5d5-c5a33fa10aae"
+      ]
+    }
+  },
+  {
+    "appName": "cc-22-nov-idoh-bm-pages-new-product-page",
+    "notifications": {
+      "slack_channels": [
+        "cc-22-nov-idoh-bm-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "cc-22-nov-idoh-bm",
+      "business-manager"
+    ],
+    "ignore_first_request_roundtrip": true,
+    "petri_annotations": {
+      "scopes": [
+        "business-manager",
+        "bm-apps-a5001149-da51-4a31-b5d5-c5a33fa10aae"
+      ]
+    }
+  },
+  {
+    "appName": "cc-22-nov-idoh-bm-pages-new-product",
+    "notifications": {
+      "slack_channels": [
+        "cc-22-nov-idoh-bm-urgent"
+      ]
+    },
+    "deploy_annotations": [
+      "cc-22-nov-idoh-bm",
+      "business-manager"
+    ],
+    "ignore_first_request_roundtrip": true,
+    "petri_annotations": {
+      "scopes": [
+        "business-manager",
+        "bm-apps-a5001149-da51-4a31-b5d5-c5a33fa10aae"
+      ]
+    }
   }
 ]

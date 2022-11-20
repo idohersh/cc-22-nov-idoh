@@ -10,7 +10,10 @@ describe('index', () => {
   beforeEach(() => testkit.reset());
 
   it('renders a title correctly', async () => {
-    const { TestComponent } = testkit.getBMComponent(Index);
+    const {
+      TestComponent,
+      context: { i18n },
+    } = testkit.getBMComponent(Index);
     const { baseElement, findByTestId } = render(<TestComponent />);
 
     await findByTestId('app-title');
@@ -21,5 +24,6 @@ describe('index', () => {
     });
 
     expect(await pageHeaderTestkit.exists()).toBe(true);
+    expect(await pageHeaderTestkit.titleText()).toBe(i18n.t('app.title'));
   });
 });
